@@ -11,10 +11,6 @@ function TodoItem({ todo }) {
         updateToDo(todo.id, {...todo, todo: todoMsg})
         setIsTodoEditable(false)
       }
-    //   const todoComplete = () => {
-    //     //console.log(todo.id);
-    //     todoCompleted(todo.id)
-    //   }
 
     return (
         <div
